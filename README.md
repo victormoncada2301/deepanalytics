@@ -5,7 +5,7 @@ Este proyecto es una aplicación que muestra el listado de productos .
 La aplicación se divide en dos partes:
 
 - **Cliente**: Construido con React, encargado de la interfaz de usuario.
-- **Servidor**: Construido con Node.js y Express, que se comunica con la API de MercadoLibre y expone servicios documentados en Swagger.
+- **Servidor**: Construido con Node.js y Express, que se comunica con la APIS y expone los servicios documentados en Swagger.
 
 ## Tabla de Contenidos
 
@@ -51,7 +51,7 @@ Para instalar y ejecutar este proyecto, sigue estos pasos:
 ### Paso a Paso
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/victormoncada2301/spa-mercadolibre.git
+    git clone https://github.com/victormoncada2301/deep.git
     ```
 
 2. Instala las dependencias del cliente y del servidor:
@@ -65,7 +65,7 @@ Para instalar y ejecutar este proyecto, sigue estos pasos:
     npm install
     ```
 
-3. Configura el archivo `.env` en el servidor con la URL base de la API de MercadoLibre:
+3. Configura el archivo `.env` en el servidor con la URL base de la API:
     ```plaintext
     REACT_APP_API_URL=http://localhost:3001
     ```
@@ -87,7 +87,7 @@ En el directorio `server`, puedes ejecutar:
 ## Estructura del Proyecto
 
 ```plaintext
-mercadolibre-challenge/
+deepanalytics/
 ├── client/              # Aplicación de cliente (React)
 │   ├── src/
 │   │   ├── components/  # Componentes React
