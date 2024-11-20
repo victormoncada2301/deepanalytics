@@ -14,9 +14,6 @@ La aplicación se divide en dos partes:
 3. [Instalación](#instalación)
 4. [Scripts Disponibles](#scripts-disponibles)
 5. [Estructura del Proyecto](#estructura-del-proyecto)
-6. [Swagger API Documentation](#swagger-api-documentation)
-7. [Extras](#extras)
-8. [Autor](#autor)
 
 ## Tecnologías
 
